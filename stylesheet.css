@@ -1,0 +1,111 @@
+body {
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #666;
+}
+img {
+  max-width: 100%;
+}
+.color-414141 {
+  color: #414141;
+}
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.source-sans-3-400 {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.content-width {
+  max-width: 1110px;
+  margin-inline: auto;
+}
+.add-flex {
+  display: flex;
+}
+.add-flex.gap-15 {
+  gap: 15px;
+}
+.add-flex.gap-30 {
+  gap: 30px;
+}
+.add-flex.align-items-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.topbar {
+  background: #000;
+}
+.topbar .logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.topbar #signin_info {
+  padding: 10px;
+  text-align: right;
+}
+.topbar #signin_info a + a {
+  margin-left: 12px;
+}
+.topbar br {
+  display: none;
+}
+.topbar a {
+  color: #fff;
+}
+.logobar .tag {
+  color: #9d9d9d;
+}
+.logobar a {
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+}
+.logobar .topicons {
+  margin-top: 15px;
+}
+.line {
+  border-bottom: 1px solid #d0d0d0;
+}
+.stock {
+  background: #f0f0f0;
+  padding: 5px 10px;
+  margin-block: 2px;
+}
+.stock a {
+  color: #000;
+}
+.stock .ChangePercentGreen2 {
+  color: #188038;
+}
+.stock .live {
+  color: #db1a0f;
+}
+.stock .stocksearchbox {
+  margin-left: auto;
+}
+.stock .sensex {
+  font-weight: 500;
+}
+.stock .getquoteinput {
+  border: 1px solid #e0e0e0;
+  height: 25px;
+  padding: 0 10px;
+}
+.stock .getqbtn {
+  background: #fff
+    url(https://imworld.rediff.com/worldrediff/pix/srchglassicon.png) center
+    no-repeat;
+  background-size: 13px;
+  border: 1px solid #e0e0e0;
+  height: 27px;
+  width: 27px;
+}
